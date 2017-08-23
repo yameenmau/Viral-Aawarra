@@ -1,0 +1,15 @@
+class Test
+{
+static
+{
+System.out.println("Static block1");
+}
+public static void main(String arg[])
+{
+System.out.println("Main method");
+}
+static
+{
+System.out.println("Static block2");
+}
+}
